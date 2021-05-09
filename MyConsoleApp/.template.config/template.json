@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Alberto Monteiro",
+    "sourceName": "MyConsoleApp",
+    "classifications": [
+        "console"
+    ],
+    "identity": "albertoconsoleapp",
+    "name": "Alberto Console App Template",
+    "shortName": "albertoconapp",
+    "tags": {
+        "type": "solution",
+        "language": "c#"
+    },
+    "defaultName": "YourApp",
+    "description": "Some template",
+    "symbols": {
+        "AuthorName": {
+            "type": "parameter",
+            "description": "author name",
+            "defaultValue": "Alberto",
+            "replaces": "AuthorName",
+            "datatype": "text"
+        },
+        "Description": {
+            "type": "parameter",
+            "description": "description",
+            "defaultValue": "some description",
+            "replaces": "DescriptionHere",
+            "datatype": "text"
+        }
+    },
+    "primaryOutputs": [
+        {
+            "path": "MyConsoleApp.sln"
+        }
+    ]
+}
